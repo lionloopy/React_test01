@@ -1,0 +1,32 @@
+.wrap {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.boxList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.box {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 5px;
+}
